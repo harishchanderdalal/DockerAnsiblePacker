@@ -25,11 +25,7 @@
     "post-processors": [
         {
             "type": "docker-import",
-<<<<<<< HEAD
             "repository": "{{user `repo`}}/packer-ansible",
-=======
-            "repository": "harish/packer-ansible",
->>>>>>> 83ebf5541fb9951cdccc82a025568825ab468237
             "tag": "0.1"
         }
     ]
