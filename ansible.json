@@ -21,7 +21,7 @@
     "post-processors": [
         {
             "type": "docker-import",
-            "repository": "tcnksm/packer-ansible",
+            "repository": "harish/packer-ansible",
             "tag": "0.1"
         }
     ]
