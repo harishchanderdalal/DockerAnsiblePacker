@@ -5,16 +5,16 @@
 
     "builders":[{
         "type": "docker",
-        "image": "ubuntu",
+        "image": "centos",
         "export_path": "image.tar"
     }],
     "provisioners":[
         {
             "type": "shell",
             "inline": [
-                "apt-get -y update",
-                "apt-get install -y python-pip python-dev",
-                "pip install ansible"
+                "yum -y update",
+                "yum install epel-release -y",
+                "yum install ansible -y"
             ]
         },
         {
