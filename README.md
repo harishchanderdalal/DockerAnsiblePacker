@@ -5,7 +5,7 @@
 Build docker image with ansible provisioning
 
 ```
-$ packer build machine_ansible.json
+$ packer build ansible.json
 ```
 
 Check it.
